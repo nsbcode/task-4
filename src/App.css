@@ -1,0 +1,64 @@
+.container {
+  display: flex;
+  width: 100%;
+  justify-content: start;
+  height: 100svh;
+  padding: 5rem 0;
+  flex-direction: column;
+  gap: 5rem;
+}
+
+
+
+button {
+  border: none;
+  padding: .5rem 1.5rem;
+  color: white;
+  font: inherit;
+  background: #000;
+  border-radius: 10px;
+  cursor: pointer;
+  width: max-content;
+}
+
+.title {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.forms {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: .5rem;
+  border: 1px solid black;
+  padding: 1rem;
+  border-radius: 10px;
+}
+
+input {
+  padding: .5rem .5rem;
+  font: inherit;
+  width: 100%;
+}
+
+.checkgroup {
+  display: flex;  
+}
+
+.center {
+  display: flex;
+  align-self: flex-start;
+  gap: .5rem;
+}
+
+.error {
+  color: red;
+  font-size: .8rem;
+}
